@@ -49,7 +49,7 @@ const FeatureCard = ({ feature, index, description, isActive }: { feature: strin
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <Image
-          src={`/feature_${index + 1}.webp`}
+          src={`./feature_${index + 1}.webp`}
           alt={feature}
           width={200}
           height={200}
@@ -204,7 +204,7 @@ export default function RadpapersLanding() {
           <Card className="rounded-full backdrop-blur-md bg-background/30 border-0 shadow-none">
             <div className="flex justify-between items-center px-8 py-3">
               <div className="flex items-center">
-                <Image src="/radpapers_logo.svg" alt="Radpapers Logo" width={36} height={36} />
+                <Image src="./radpapers_logo.svg" alt="Radpapers Logo" width={36} height={36} priority={true} />
                 <span className="ml-4 text-base font-extrabold">Radpapers</span>
               </div>
               <div className="flex items-center space-x-4">
@@ -298,7 +298,7 @@ export default function RadpapersLanding() {
               {[...Array(29)].map((_, i) => (
                 <div key={i} className="relative aspect-[9/19.5] w-[125px] sm:w-[185px] flex-shrink-0 rounded-3xl overflow-hidden">
                   <Image
-                    src={`/wallpaper${(i % 15) + 1}.webp`}
+                    src={`./wallpaper${(i % 15) + 1}.webp`}
                     alt={`Wallpaper ${(i % 15) + 1}`}
                     fill
                     style={{ objectFit: 'cover' }}
@@ -313,7 +313,7 @@ export default function RadpapersLanding() {
               {[...Array(29)].map((_, i) => (
                 <div key={i} className="relative aspect-[9/19.5] w-[125px] sm:w-[185px] flex-shrink-0 rounded-3xl overflow-hidden">
                   <Image
-                    src={`/wallpaper${(i % 15) + 16}.webp`}
+                    src={`./wallpaper${(i % 15) + 16}.webp`}
                     alt={`Wallpaper ${(i % 15) + 16}`}
                     fill
                     style={{ objectFit: 'cover' }}
@@ -364,7 +364,7 @@ export default function RadpapersLanding() {
 
         <section id="cta" className="text-center my-24">
         <BlurFade delay={BLUR_FADE_DELAY * 25}>
-          <Image src="/radpapers_logo.svg" alt="Radpapers Icon" width={80} height={80} className="mx-auto mb-6" />
+          <Image src="./radpapers_logo.svg" alt="Radpapers Icon" width={80} height={80} className="mx-auto mb-6" priority={true} />
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-2">Stop using boring wallpapers.</h2>
           <p className="text-lg sm:text-lg text-muted-foreground mb-6 font-bold">Uplift your device&apos;s vibes. Install Radpapers</p>
           <RainbowButton>
