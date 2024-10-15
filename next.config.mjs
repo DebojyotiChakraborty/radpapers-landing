@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/radpapers-landing/'
-  assetPrefix: '/radpapers-landing/'
+  basePath: '/radpapers-landing',
+  assetPrefix: '/radpapers-landing'
 };
 
 export default nextConfig;
