@@ -11,9 +11,9 @@ const nextConfig = {
   // When publishing to radpapers.in, it's better to
   // remove these lines
   
-  trailingSlash: true,
-  basePath: '/radpapers-landing',
-  assetPrefix: '/radpapers-landing'
+  // trailingSlash: true,
+  // basePath: '/radpapers-landing',
+  // assetPrefix: '/radpapers-landing'
 };
 
 export default nextConfig;
