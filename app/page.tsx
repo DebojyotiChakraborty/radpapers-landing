@@ -208,7 +208,7 @@ export default function RadpapersLanding() {
                 <span className="ml-4 text-base font-extrabold">Radpapers</span>
               </div>
               <div className="flex items-center space-x-4">
-                <Button asChild variant="default" className="hidden sm:flex rounded-xl">
+                <Button asChild variant="default" className="hidden sm:flex rounded-full">
                   <Link href="https://play.google.com/store/apps/details?id=com.debojyoti.radpapers">
                     <RiGooglePlayFill className="mr-2 h-5 w-5" />
                     Download Now
@@ -270,13 +270,13 @@ export default function RadpapersLanding() {
             AI-driven art and customization!
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-8">
-            <RainbowButton>
+            <RainbowButton className='rounded-full'>
               <Link href="https://play.google.com/store/apps/details?id=com.debojyoti.radpapers" className="flex items-center">
                 <RiGooglePlayFill className="mr-2 h-5 w-5" />
                 Download Now
               </Link>
             </RainbowButton>
-            <Button size="lg">
+            <Button size="lg" className='rounded-full'>
               <Link href="https://youtu.be/HldNEfVIw0I?si=f-jtYqvJLxvRN5WK" className="flex items-center">
                 <span>Video Trailer</span>
                 <RiArrowRightSLine className="ml-2 h-5 w-5" />
@@ -367,7 +367,7 @@ export default function RadpapersLanding() {
           <Image src="./radpapers_logo.svg" alt="Radpapers Icon" width={80} height={80} className="mx-auto mb-6" priority={true} />
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-2">Stop using boring wallpapers.</h2>
           <p className="text-lg sm:text-lg text-muted-foreground mb-6 font-bold">Uplift your device&apos;s vibes. Install Radpapers</p>
-          <RainbowButton>
+          <RainbowButton className='rounded-full'>
             <Link href="https://play.google.com/store/apps/details?id=com.debojyoti.radpapers" className="flex items-center">
               <RiGooglePlayFill className="mr-2 h-5 w-5" />
               Download Now
@@ -382,13 +382,13 @@ export default function RadpapersLanding() {
           <h3 className="text-xl font-semibold mb-4">Socials</h3>
           <p className="text-muted-foreground mb-4 font-semibold">Follow us on our socials to stay ahead of the curve</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="outline" size="sm" asChild>
+            <Button variant="outline" className='rounded-full px-4' size="sm" asChild>
               <Link href="https://t.me/StellarStudios"><IconSend className="mr-3 h-5 w-5" />Telegram</Link>
             </Button>
-            <Button variant="outline" size="sm" asChild>
+            <Button variant="outline" className='rounded-full px-4' size="sm" asChild>
               <Link href="https://www.instagram.com/stellarstudios.app"><RiInstagramLine className="mr-3 h-5 w-5" />Instagram</Link>
             </Button>
-            <Button variant="outline" size="sm" asChild>
+            <Button variant="outline" className='rounded-full px-4' size="sm" asChild>
               <Link href="https://x.com/Pseudo_Maverick"><RiTwitterXLine className="mr-3 h-4 w-4" />X (Twitter)</Link>
             </Button>
           </div>

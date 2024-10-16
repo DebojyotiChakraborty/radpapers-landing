@@ -45,11 +45,11 @@ export default function PrivacyPolicy() {
           <Card className="rounded-full backdrop-blur-md bg-background/30 border-0 shadow-none">
             <div className="flex justify-between items-center px-8 py-3">
               <Link href="/" className="flex items-center">
-                <Image src="/radpapers_logo.svg" alt="Radpapers Logo" width={36} height={36} />
+                <Image src="./radpapers_logo.svg" alt="Radpapers Logo" width={36} height={36} />
                 <span className="ml-4 text-base font-extrabold">Radpapers</span>
               </Link>
               <div className="flex items-center space-x-4">
-                <Button asChild variant="default" className="hidden sm:flex rounded-xl">
+                <Button asChild variant="default" className="hidden sm:flex rounded-full">
                   <Link href="https://play.google.com/store/apps/details?id=com.debojyoti.radpapers">
                     <RiGooglePlayFill className="mr-2 h-5 w-5" />
                     Download Now
