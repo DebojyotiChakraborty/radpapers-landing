@@ -45,7 +45,7 @@ export default function TermsOfUse() {
           <Card className="rounded-full backdrop-blur-md bg-background/30 border-0 shadow-none">
             <div className="flex justify-between items-center px-8 py-3">
               <Link href="/" className="flex items-center">
-                <Image src="./radpapers_logo.svg" alt="Radpapers Logo" width={36} height={36} />
+                <Image src="./radpapers_logo.svg" alt="Radpapers Logo" width={36} height={36} priority={true} />
                 <span className="ml-4 text-base font-extrabold">Radpapers</span>
               </Link>
               <div className="flex items-center space-x-4">
