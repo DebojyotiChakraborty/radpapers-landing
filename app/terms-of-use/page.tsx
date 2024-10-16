@@ -49,7 +49,7 @@ export default function TermsOfUse() {
                 <span className="ml-4 text-base font-extrabold">Radpapers</span>
               </Link>
               <div className="flex items-center space-x-4">
-                <Button asChild variant="default" className="hidden sm:flex rounded-xl">
+                <Button asChild variant="default" className="hidden sm:flex rounded-full">
                   <Link href="https://play.google.com/store/apps/details?id=com.debojyoti.radpapers">
                     <RiGooglePlayFill className="mr-2 h-5 w-5" />
                     Download Now
